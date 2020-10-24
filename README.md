@@ -7,11 +7,11 @@ This is an Instagram clone with a custom Parse backend that allows a user to pos
 
 Features:
 
-- [ ] User sees app icon in home screen and styled launch screen.
-- [ ] User can sign up to create a new account. 
-- [ ] User can log in.
-- [ ] User can take a photo, add a caption, and post it to the server.
-- [ ] User can view the last 20 posts. 
+- [x] User sees app icon in home screen and styled launch screen.
+- [x] User can sign up to create a new account. 
+- [x] User can log in.
+- [x] User can take a photo, add a caption, and post it to the server.
+- [x] User can view the last 20 posts. 
 
 ## **TODO**:
 
