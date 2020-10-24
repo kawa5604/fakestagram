@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Parse
 import AlamofireImage   //to resize images
 
 class CameraViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
@@ -20,7 +20,25 @@ class CameraViewController: UIViewController,UIImagePickerControllerDelegate, UI
     }
     
     @IBAction func onnSubmitButton(_ sender: Any) {
-    }
+        let post = PFObject(className: "Posts")
+        post["caption"] = commentField.text!
+        post["author"] = PFUser.current()!
+        
+        let imageData = imageView.image!.pngData()
+        
+        let file = PFFileObject(data: imageData!)
+        post["image"] = file
+        
+        post.saveInBackground { (success, error) in
+            if success {
+                print("image saved")
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                print("image not saved")
+            }
+            
+          }
+        }
     
     @IBAction func onCameraButton(_ sender: Any) {
         let picker = UIImagePickerController()
