@@ -18,6 +18,7 @@
 		5286F73F2543CDD1004A1F08 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286F73E2543CDD1004A1F08 /* LoginViewController.swift */; };
 		5286F7542543CEDE004A1F08 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286F7532543CEDE004A1F08 /* FeedViewController.swift */; };
 		5286F7612543E1D7004A1F08 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286F7602543E1D7004A1F08 /* CameraViewController.swift */; };
+		5286F7662543FA43004A1F08 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286F7652543FA43004A1F08 /* PostCell.swift */; };
 		63E9620687280DFBCD3494C1 /* Pods_fakestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D9E3191696EAC21EE3A4CD /* Pods_fakestagram.framework */; };
 		942211934746F2FBBEFE6B9B /* Pods_fakestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D56CFDE592432E4E6E89134 /* Pods_fakestagramTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		5286F73E2543CDD1004A1F08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5286F7532543CEDE004A1F08 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5286F7602543E1D7004A1F08 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5286F7652543FA43004A1F08 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		561818978797E884708E257B /* Pods_fakestagram_fakestagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fakestagram_fakestagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		757500324C48C53FB8968587 /* Pods-fakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.debug.xcconfig"; path = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		841116462C93D14B588F6B73 /* Pods-fakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.release.xcconfig"; path = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				526AF5BE2543C80A00950D9B /* AppDelegate.swift */,
 				526AF5C02543C80A00950D9B /* SceneDelegate.swift */,
 				526AF5C42543C80A00950D9B /* Main.storyboard */,
+				5286F7652543FA43004A1F08 /* PostCell.swift */,
 				5286F7602543E1D7004A1F08 /* CameraViewController.swift */,
 				526AF5C72543C80A00950D9B /* Assets.xcassets */,
 				526AF5C92543C80A00950D9B /* LaunchScreen.storyboard */,
@@ -417,6 +420,7 @@
 				526AF5BF2543C80A00950D9B /* AppDelegate.swift in Sources */,
 				5286F7542543CEDE004A1F08 /* FeedViewController.swift in Sources */,
 				526AF5C12543C80A00950D9B /* SceneDelegate.swift in Sources */,
+				5286F7662543FA43004A1F08 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
