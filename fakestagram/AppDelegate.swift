@@ -23,8 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: parseConfig)
+        //
+//        if PFUser.current() != nil {
+//            let main = UIStoryboard(name: "Main", bundle: nil)
+//            let feedNavigationController = main.instantiateViewController(identifier: "feedNavigationController")
+//            
+////            window.rootViewController = feedNavigationController
+////            window?.rootViewController = feedNavigationController
         
-
         return true
     }
 
